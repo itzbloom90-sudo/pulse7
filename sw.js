@@ -1,4 +1,3 @@
-// Service Worker for Pulse App 
 const CACHE_NAME = 'pulse-v1'; 
 const urlsToCache = [ 
   '/pulse7/', 

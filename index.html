@@ -1,14 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/pulse7/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pulse</title>
+   <link rel="manifest" href="/pulse7/manifest.json" />
+<meta name="theme-color" content="#6C63FF" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="apple-touch-icon" href="/pulse7/icon-192.png" />
     <script type="module" crossorigin src="/pulse7/assets/index-Bl09DZR7.js"></script>
     <link rel="stylesheet" crossorigin href="/pulse7/assets/index-DSS4EAFE.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/pulse7/sw.js');
+  }
+</script>
   </body>
 </html>
